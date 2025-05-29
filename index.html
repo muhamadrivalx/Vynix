@@ -1,128 +1,135 @@
-huuu<!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vynix - Nonton Film Gratis</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #1a1a1a;
-            color: white;
-            text-align: center;
-        }
-        header {
-            padding: 10px;
-            background-color: #000;
-        }
-        header img {
-            width: 80px;
-        }
-        .banner {
-            background-image: url('https://via.placeholder.com/800x300?text=Featured+Film');
-            background-size: cover;
-            height: 300px;
-            padding: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .banner h1 {
-            font-size: 2em;
-            margin-bottom: 10px;
-        }
-        .banner button {
-            padding: 10px 20px;
-            background-color: #fff;
-            color: #000;
-            border: none;
-            cursor: pointer;
-            font-weight: bold;
-        }
-        .movies {
-            padding: 20px;
-        }
-        .movies h2 {
-            margin-bottom: 10px;
-        }
-        .movie-list {
-            display: flex;
-            overflow-x: auto;
-            gap: 10px;
-        }
-        .movie-card {
-            width: 120px;
-        }
-        .movie-card img {
-            width: 100%;
-            height: 150px;
-            border-radius: 5px;
-        }
-        .movie-card p {
-            font-size: 0.8em;
-            margin-top: 5px;
-        }
-    </style>
+    <title>Vynix - Website Film Khusus AI</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <img src="VYNIX-logo.png" alt="Vynix Logo">
-    </header>
-    <div class="banner">
-        <div>
-            <h1>Film Unggulan</h1>
-            <button onclick="alert('Fitur play belum aktif.')">Play</button>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Selamat Datang di Vynix</h1>
+            <p>Website Film Khusus AI di Seluruh Dunia dari Indonesia</p>
+            <a href="#movies" class="btn">Masuk</a>
         </div>
-    </div>
-    <div class="movies">
-        <h.Concurrent Watching</h2>
-        <div class="movie-list">
+    </section>
+
+    <!-- Movies Section -->
+    <section id="movies" class="movies">
+        <h2>Vynix Film Collection</h2>
+        <div class="movie-grid">
+            <!-- Daftar 20 Film -->
             <div class="movie-card">
-                <img src="https://via.placeholder.com/120x150?text=Film+1" alt="Film 1">
-                <p>Film 1</p>
+                <img src="images/inception.jpg" alt="Inception">
+                <h3>Inception</h3>
+                <p>2010 | Sci-Fi | 2h 28m</p>
             </div>
             <div class="movie-card">
-                <img src="https://via.placeholder.com/120x150?text=Film+2" alt="Film 2">
-                <p>Film 2</p>
+                <img src="images/matrix.jpg" alt="The Matrix">
+                <h3>The Matrix</h3>
+                <p>1999 | Sci-Fi | 2h 16m</p>
             </div>
             <div class="movie-card">
-                <img src="https://via.placeholder.com/120x150?text=Film+3" alt="Film 3">
-                <p>Film 3</p>
+                <img src="images/interstellar.jpg" alt="Interstellar">
+                <h3>Interstellar</h3>
+                <p>2014 | Sci-Fi | 2h 49m</p>
+            </div>
+            <div class="movie-card">
+                <img src="images/blade-runner.jpg" alt="Blade Runner 2049">
+                <h3>Blade Runner 2049</h3>
+                <p>2017 | Sci-Fi | 2h 43m</p>
+            </div>
+            <div class="movie-card">
+                <img src="images/ex-machina.jpg" alt="Ex Machina">
+                <h3>Ex Machina</h3>
+                <p>2014 | Sci-Fi | 1h 48m</p>
+            </div>
+            <div class="movie-card">
+                <img src="images/her.jpg" alt="Her">
+                <h3>Her</h3>
+                <p>2013 | Drama | 2h 6m</p>
+            </div>
+            <div class="movie-card">
+                <img src="images/arrival.jpg" alt="Arrival">
+                <h3>Arrival</h3>
+                <p>2016 | Sci-Fi | 1h 56m</p>
+            </div>
+            <div class="movie-card">
+                <img src="images/2001.jpg" alt="2001: A Space Odyssey">
+                <h3>2001: A Space Odyssey</h3>
+                <p>1968 | Sci-Fi | 2h 29m</p>
+            </div>
+            <div class="movie-card">
+                <img src="images/edge-of-tomorrow.jpg" alt="Edge of Tomorrow">
+                <h3>Edge of Tomorrow</h3>
+                <p>2014 | Action | 1h 53m</p>
+            </div>
+            <div class="movie-card">
+                <img src="images/minority-report.jpg" alt="Minority Report">
+                <h3>Minority Report</h3>
+                <p>2002 | Sci-Fi | 2h 25m</p>
+            </div>
+            <div class="movie-card">
+                <img src="images/dune.jpg" alt="Dune">
+                <h3>Dune</h3>
+                <p>2021 | Sci-Fi | 2h 35m</p>
+            </div>
+            <div class="movie-card">
+                <img src="images/gravity.jpg" alt="Gravity">
+                <h3>Gravity</h3>
+                <p>2013 | Sci-Fi | 1h 31m</p>
+            </div>
+            <div class="movie-card">
+                <img src="images/moon.jpg" alt="Moon">
+                <h3>Moon</h3>
+                <p>2009 | Sci-Fi | 1h 37m</p>
+            </div>
+            <div class="movie-card">
+                <img src="images/ai.jpg" alt="A.I. Artificial Intelligence">
+                <h3>A.I. Artificial Intelligence</h3>
+                <p>2001 | Sci-Fi | 2h 26m</p>
+            </div>
+            <div class="movie-card">
+                <img src="images/oblivion.jpg" alt="Oblivion">
+                <h3>Oblivion</h3>
+                <p>2013 | Sci-Fi | 2h 4m</p>
+            </div>
+            <div class="movie-card">
+                <img src="images/gattaca.jpg" alt="Gattaca">
+                <h3>Gattaca</h3>
+                <p>1997 | Sci-Fi | 1h 46m</p>
+            </div>
+            <div class="movie-card">
+                <img src="images/solaris.jpg" alt="Solaris">
+                <h3>Solaris</h3>
+                <p>2002 | Sci-Fi | 1h 39m</p>
+            </div>
+            <div class="movie-card">
+                <img src="images/wall-e.jpg" alt="WALL-E">
+                <h3>WALL-E</h3>
+                <p>2008 | Animation | 1h 38m</p>
+            </div>
+            <div class="movie-card">
+                <img src="images/upgrade.jpg" alt="Upgrade">
+                <h3>Upgrade</h3>
+                <p>2018 | Sci-Fi | 1h 40m</p>
+            </div>
+            <div class="movie-card">
+                <img src="images/chappie.jpg" alt="Chappie">
+                <h3>Chappie</h3>
+                <p>2015 | Sci-Fi | 2h 0m</p>
             </div>
         </div>
-    </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Vynix. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
-<div class="movie-card">
-    <img src="https://via.placeholder.com/120x150?text=Film+4" alt="Film 4">
-    <p>Film 4</p>
-</div>
-<div class="movie-card">
-    <img src="https://via.placeholder.com/120x150?text=Film+5" alt="Film 5">
-    <p>Film 5</p>
-</div>
-<div class="movie-card">
-    <img src="https://via.placeholder.com/120x150?text=Film+6" alt="Film 6">
-    <p>Film 6</p>
-</div>
-<div class="movie-card">
-    <img src="https://via.placeholder.com/120x150?text=Film+7" alt="Film 7">
-    <p>Film 7</p>
-</div>
-<div class="movie-card">
-    <img src="https://via.placeholder.com/120x150?text=Film+8" alt="Film 8">
-    <p>Film 8</p>
-</div>
-<div class="movie-card">
-    <img src="https://via.placeholder.com/120x150?text=Film+9" alt="Film 9">
-    <p>Film 9</p>
-</div>
-<div class="movie-card">
-    <img src="https://via.placeholder.com/120x150?text=Film+10" alt="Film 10">
-    <p>Film 10</p>
-</div>
