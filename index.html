@@ -1,13 +1,100 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vynix - Nonton Film Gratis</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vynix - Nonton Film Gratis</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+        }
+        header {
+            padding: 10px;
+            background-color: #000;
+        }
+        header img {
+            width: 80px;
+        }
+        .banner {
+            background-image: url('https://via.placeholder.com/800x300?text=Featured+Film');
+            background-size: cover;
+            height: 300px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .banner h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .banner button {
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #000;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .movies {
+            padding: 20px;
+        }
+        .movies h2 {
+            margin-bottom: 10px;
+        }
+        .movie-list {
+            display: flex;
+            overflow-x: auto;
+            gap: 10px;
+        }
+        .movie-card {
+            width: 120px;
+        }
+        .movie-card img {
+            width: 100%;
+            height: 150px;
+            border-radius: 5px;
+        }
+        .movie-card p {
+            font-size: 0.8em;
+            margin-top: 5px;
+        }
+    </style>
 </head>
 <body>
-  <h1>Selamat datang di Vynix</h1>
-  <p>Website nonton film gratis</p>
-  <img src="VYNIX-logo.png" alt="Logo Vynix" width="200" />
+    <header>
+        <img src="VYNIX-logo.png" alt="Vynix Logo">
+    </header>
+    <div class="banner">
+        <div>
+            <h1>Film Unggulan</h1>
+            <button onclick="alert('Fitur play belum aktif.')">Play</button>
+        </div>
+    </div>
+    <div class="movies">
+        <h.Concurrent Watching</h2>
+        <div class="movie-list">
+            <div class="movie-card">
+                <img src="https://via.placeholder.com/120x150?text=Film+1" alt="Film 1">
+                <p>Film 1</p>
+            </div>
+            <div class="movie-card">
+                <img src="https://via.placeholder.com/120x150?text=Film+2" alt="Film 2">
+                <p>Film 2</p>
+            </div>
+            <div class="movie-card">
+                <img src="https://via.placeholder.com/120x150?text=Film+3" alt="Film 3">
+                <p>Film 3</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
